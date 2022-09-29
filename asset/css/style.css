@@ -13,7 +13,6 @@ body {
 }
 .wrapper {
   display: flex;
-  height: 100vh;
 }
 .card {
   width: 100%;
@@ -148,14 +147,14 @@ button {
 button:hover {
   transform: translateY(-5px);
 }
-@media screen and (max-width: 576px) {
+/*@media screen and (max-width: 576px) {
   button {
     margin: 0;
     margin-bottom: 16px;
     width: 100%;
     max-width: 350px;
   }
-}
+}*/
 #stars1 {
   width: 1px;
   height: 1px;
